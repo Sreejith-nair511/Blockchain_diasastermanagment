@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 48 30% 96%;
+    --foreground: 150 30% 10%;
+
+    --card: 48 30% 96%;
+    --card-foreground: 150 30% 10%;
+
+    --popover: 48 30% 96%;
+    --popover-foreground: 150 30% 10%;
+
+    --primary: 150 70% 19%;
+    --primary-foreground: 48 30% 96%;
+
+    --secondary: 30 100% 57%;
+    --secondary-foreground: 48 30% 96%;
+
+    --muted: 150 10% 90%;
+    --muted-foreground: 150 20% 40%;
+
+    --accent: 30 80% 57%;
+    --accent-foreground: 48 30% 96%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 48 30% 96%;
+
+    --border: 150 20% 85%;
+    --input: 150 20% 85%;
+    --ring: 150 70% 19%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 150 30% 10%;
+    --foreground: 48 30% 96%;
+
+    --card: 150 30% 12%;
+    --card-foreground: 48 30% 96%;
+
+    --popover: 150 30% 12%;
+    --popover-foreground: 48 30% 96%;
+
+    --primary: 150 70% 19%;
+    --primary-foreground: 48 30% 96%;
+
+    --secondary: 30 100% 57%;
+    --secondary-foreground: 48 30% 96%;
+
+    --muted: 150 30% 20%;
+    --muted-foreground: 150 20% 70%;
+
+    --accent: 30 80% 57%;
+    --accent-foreground: 48 30% 96%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 48 30% 96%;
+
+    --border: 150 30% 20%;
+    --input: 150 30% 20%;
+    --ring: 30 80% 57%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .verified-badge {
+    @apply inline-flex items-center gap-1 text-xs font-medium px-2 py-1 rounded-full bg-dinai-green/10 text-dinai-green border border-dinai-green/20;
+  }
+
+  .pending-badge {
+    @apply inline-flex items-center gap-1 text-xs font-medium px-2 py-1 rounded-full bg-dinai-orange/10 text-dinai-orange border border-dinai-orange/20;
+  }
+
+  .failed-badge {
+    @apply inline-flex items-center gap-1 text-xs font-medium px-2 py-1 rounded-full bg-destructive/10 text-destructive border border-destructive/20;
+  }
+}
+
+/* Leaflet Map Styles */
+.leaflet-container {
+  height: 100% !important;
+  width: 100% !important;
+  z-index: 1;
+}
+
+.custom-disaster-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.leaflet-popup-content {
+  margin: 0.5rem;
+}
+
+.leaflet-popup-tip {
+  background-color: white;
+}
+
+/* Make the map controls more visible against our background */
+.leaflet-control-zoom {
+  border: 2px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+.leaflet-control-zoom a {
+  background-color: rgba(15, 81, 50, 0.8) !important;
+  color: #fff8e7 !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background-color: rgba(15, 81, 50, 1) !important;
+}
+
+.leaflet-control-attribution {
+  background-color: rgba(15, 81, 50, 0.7) !important;
+  color: #fff8e7 !important;
+  font-size: 10px !important;
+}
+
+.leaflet-control-attribution a {
+  color: #ff7722 !important;
+}
