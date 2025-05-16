@@ -110,6 +110,10 @@ dinai-platform/
 ├── tailwind.config.ts# Tailwind CSS configuration
 ├── tsconfig.json # TypeScript configuration
 
+![image](https://github.com/user-attachments/assets/9c49e9e8-81a3-4be4-aaf8-b7c53b3ef848)
+![image](https://github.com/user-attachments/assets/5c8201c2-c68a-489e-bf7b-a9f36f0c485c)
+
+WEBSITE LINK https://dis-agrand.vercel.app/
 
 
 ## 🚀 Getting Started
