@@ -78,8 +78,8 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 👥 Authors
 Sreejith s
 ALGORAND BLOCKCHAIN CLUB CIT
+<br>
 
-<h1>PROJECT 2 </h1>
 # DinAI Platform
 
 DinAI Platform is a modern, scalable web application built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **PNPM**.
