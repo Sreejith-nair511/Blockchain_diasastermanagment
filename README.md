@@ -78,3 +78,66 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 👥 Authors
 Sreejith s
 ALGORAND BLOCKCHAIN CLUB CIT
+
+<h1>PROJECT 2 </h1>
+# DinAI Platform
+
+DinAI Platform is a modern, scalable web application built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **PNPM**.
+ This platform serves as a flexible foundation for AI and blockchain -driven web experiences, optimized for performance and developer productivity.
+
+## 🔧 Tech Stack
+
+- **Next.js** – React framework for production
+- **TypeScript** – Type-safe JavaScript
+- **Tailwind CSS** – Utility-first CSS framework
+- **PNPM** – Fast, disk-efficient package manager
+- **PostCSS** – CSS transformation with JS plugins
+
+## 📁 Project Structure
+
+dinai-platform/
+├── app/ # Main application pages (Next.js routing)
+├── components/ # Reusable UI components
+├── hooks/ # Custom React hooks
+├── lib/ # Utilities and helper functions
+├── public/ # Static assets
+├── styles/ # Global styles
+├── .gitignore # Git ignore rules
+├── package.json # Project metadata and scripts
+├── pnpm-lock.yaml # Dependency lock file
+├── tailwind.config.ts# Tailwind CSS configuration
+├── tsconfig.json # TypeScript configuration
+
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/en/) (v18+ recommended)
+- [PNPM](https://pnpm.io/) (`npm install -g pnpm`)
+
+### Installation
+
+```bash
+pnpm install
+Development
+
+pnpm dev
+Build for Production
+
+pnpm build
+🧩 Customization
+Modify tailwind.config.ts to customize your design system.
+
+Edit app/ and components/ for your app-specific logic and UI.
+
+🛡️ License
+This project is licensed under the MIT License.
+
+🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+📬 Contact
+Built with ❤️ by Sreejith s 
